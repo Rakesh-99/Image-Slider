@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(98, 0, 255, 0.575),rgba(84, 84, 161, 0.685), rgb(28, 204, 235));
+    overflow: hidden;
+    
+   
+}
+.container{
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    
+    
+   
+}
+.slide img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 75vw;
+    margin-top: 10px;
+    border: 2px solid rgb(241, 226, 8);
+    border-radius: 30px;
+    
+}
+.captionText{
+    background-image:linear-gradient(rgb(180, 13, 231), rgba(93, 14, 241, 0.658));
+    position: absolute;
+    bottom:0px;
+    text-align: center;
+    width: 100%;
+    padding:2px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: rgb(252, 252, 252);
+    border: none;
+    
+    
+}
+.prev{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 248, 220, 0.432);
+    left: 105px;
+    top: 45%;
+    font-size: 25px;
+    padding:10px 10px;
+    border-radius: 55px;
+    cursor: pointer;
+}
+.next{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 248, 220, 0.432);
+    right: 105px;
+    top: 45%;
+    font-size: 25px;
+    padding:10px 10px;
+    border-radius: 55px;
+    cursor: pointer;
+    
+}
+
